@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite" parallel="none">
+    <test name="Chrome Testing">
+        <parameter name="browser" value="GoogleChrome"/>
+        <classes>
+            <class name="Yahoo_10_30_18.yahoo_10_30AI"/>
+        </classes>
+    </test>
+    <test name="chrometesting">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="Yahoo_10_30_18.yahoo_10_30AI"/>
+        </classes>
+    </test>
+</suite>

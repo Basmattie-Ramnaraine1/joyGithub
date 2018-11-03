@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite" parallel="none">
+    <test name="Smoke Test">
+        <classes>
+             <class name="TestSuite.Ecommerce_Test"/>
+            <class name="TestSuite.Yahoo_Search"/>
+        </classes>
+    </test>
+    <test name="yahootesting">
+        <parameter name="browser" value="yahoo"/>
+        <classes>
+            <class name="Yahoo_10_30_18.yahoo_10_30AI"/>
+        </classes>
+    </test>
+</suite>
